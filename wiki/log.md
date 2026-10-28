@@ -42,3 +42,11 @@ Ver [[estado-del-proyecto]], [[pendientes]] y [[documentos-y-activos]].
 - Requiere iniciar sesión o autorizar una sesión GitHub en Git Credential Manager y luego reintentar. La publicación del repositorio no configura por sí sola el despliegue de la web.
 
 Ver [[estado-del-proyecto]] y [[pendientes]].
+
+## [2026-10-28] publicacion | Rama main enviada a GitHub
+- El usuario autorizó iniciar sesión. Git Credential Manager autenticó la cuenta `jasondavid3003-beep`.
+- `git push -u origin main` terminó correctamente: se creó `main` en `https://github.com/jasondavid3003-beep/dleon-gourmet.git` y quedó el seguimiento `origin/main`.
+- El último commit publicado al completar el push fue `0b9d957`. El repositorio contiene el código y la wiki; los originales de fotos, `Docs/`, el ZIP, dependencias y secretos permanecen excluidos.
+- No se comprobó un despliegue web; subir el repositorio no publica automáticamente un sitio.
+
+Ver [[estado-del-proyecto]] y [[pendientes]].

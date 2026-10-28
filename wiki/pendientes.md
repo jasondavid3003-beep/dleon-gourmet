@@ -24,7 +24,7 @@ fuentes: ["sitio-web/src/data/restaurantData.ts", "sitio-web/src/components/Test
 - **Pendiente:** probar el cotizador y revisar los destinos de WhatsApp, sin enviar mensajes reales ni formularios al negocio.
 - **Pendiente:** corregir o aceptar el solapamiento del botón flotante de WhatsApp sobre el título de platos en móvil.
 - **Completado:** primer commit local `d71bbf2`, con identidad indicada por el propietario. El repositorio permanece local; no hay publicación ni remoto configurado.
-- **Bloqueado por autenticación:** destino autorizado y configurado como `origin`, rama `main`; Git Credential Manager no tiene una cuenta GitHub. Tras iniciar sesión en GitHub, reintentar `git push -u origin main`.
+- **Completado:** autenticación GitHub con Git Credential Manager y push normal de `main` a `origin/main`.
 - **Pendiente de sitio público:** el push a GitHub no despliega automáticamente la página. Hace falta elegir/configurar un servicio de publicación y autorizar el destino si se desea ponerla en línea.
 
 Al recibir datos o autorizaciones, actualizar [[empresa]], [[documentos-y-activos]], [[estado-del-proyecto]] y [[log]].
