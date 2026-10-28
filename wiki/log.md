@@ -34,3 +34,11 @@ Ver [[estado-del-proyecto]], [[decisiones]] y [[pendientes]].
 - El ZIP, `Imagenes/`, los originales de `Docs/`, `node_modules`, salidas compiladas y secretos no se incluyeron. Sin subida a remoto.
 
 Ver [[estado-del-proyecto]], [[pendientes]] y [[documentos-y-activos]].
+
+## [2026-10-28] publicacion | Remoto configurado, falta autenticación
+- El propietario indicó como destino `https://github.com/jasondavid3003-beep/dleon-gourmet.git` y solicitó publicar la rama `main`.
+- Configurado `origin`, renombrada la rama local a `main` y comprobado que GitHub no muestra refs existentes.
+- El push normal no pudo autenticarse: Git Credential Manager no tiene cuentas disponibles y no hay `gh` instalado. No se publicó ningún commit ni se solicitó sobrescribir el remoto.
+- Requiere iniciar sesión o autorizar una sesión GitHub en Git Credential Manager y luego reintentar. La publicación del repositorio no configura por sí sola el despliegue de la web.
+
+Ver [[estado-del-proyecto]] y [[pendientes]].
