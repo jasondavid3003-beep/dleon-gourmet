@@ -1,0 +1,6 @@
+{
+  "name": "D' Leon Gourmet - Restaurante & Catering",
+  "description": "Aplicación oficial de D' Leon Gourmet: carta gastronómica, reservas de mesa, cotizador interactivo de eventos y catering en Aguachica, Cesar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
