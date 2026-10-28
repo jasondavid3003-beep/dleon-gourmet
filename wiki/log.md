@@ -27,3 +27,10 @@ Ver [[estado-del-proyecto]], [[documentos-y-activos]] y [[pendientes]].
 - Git local inicializado sin commit porque falta configurar `user.name` y `user.email`; no se alteró la configuración global.
 
 Ver [[estado-del-proyecto]], [[decisiones]] y [[pendientes]].
+
+## [2026-10-28] versionado | Primer commit local
+- El propietario proporcionó `jasondavid3003-beep` y `jasondavid3003@gmail.com` para la autoría local.
+- Creado el commit `d71bbf2` (`Configura agente y prepara landing de D' Leon`) con 40 archivos del sitio, configuración y wiki.
+- El ZIP, `Imagenes/`, los originales de `Docs/`, `node_modules`, salidas compiladas y secretos no se incluyeron. Sin subida a remoto.
+
+Ver [[estado-del-proyecto]], [[pendientes]] y [[documentos-y-activos]].

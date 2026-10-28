@@ -17,7 +17,7 @@ fuentes: ["sitio-web/package.json", "sitio-web/README.md", "AGENTS.md"]
 - **Comprobado:** `npm run build` compila y `npm run lint` (`tsc --noEmit`) termina sin errores. Vite avisa que `__dirname` no está soportado por su `configLoader: 'native'` actual; la compilación aun así pasa. npm reportó una vulnerabilidad de severidad baja y avisó que algunos scripts opcionales de dependencias no se ejecutaron.
 - **Vista previa local:** Vite responde en `http://localhost:3000/`. Revisada visualmente en escritorio (1440 × 900) y móvil (ventana predeterminada angosta). El CTA “Reservar mi mesa” abre el formulario local; no se envió ni registró ninguna reserva. En móvil, el botón flotante de WhatsApp se superpone parcialmente al título “Nuestros platos estrella”.
 - **Publicación:** pendiente; no se encontró configuración o evidencia de publicación.
-- **Git:** inicializado localmente en `PAGINA/`, todavía sin commits. `user.name` y `user.email` no están configurados, por lo que falta esa identidad para crear el primer commit. `.gitignore` excluye `Docs/`, `Imagenes/`, el ZIP, secretos, dependencias y salidas compiladas.
+- **Git:** primer commit local `d71bbf2` (`Configura agente y prepara landing de D' Leon`), con 40 archivos. Autor indicado por el propietario: `jasondavid3003-beep <jasondavid3003@gmail.com>`. No se subió a ningún remoto. `.gitignore` excluye `Docs/`, `Imagenes/`, el ZIP, secretos, dependencias y salidas compiladas.
 
 ## Ejecución
 Desde `PAGINA/`: `npm --prefix sitio-web run dev`. Servidor actualmente iniciado en el puerto 3000. Comandos comprobados: `npm --prefix sitio-web run build` y `npm --prefix sitio-web run lint`.

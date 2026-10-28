@@ -23,7 +23,7 @@ fuentes: ["sitio-web/src/data/restaurantData.ts", "sitio-web/src/components/Test
 - **Comprobado parcialmente:** servidor local abre en `http://localhost:3000/`; se revisaron las vistas de escritorio y móvil. El botón principal abre el formulario de reserva, pero el envío no se probó.
 - **Pendiente:** probar el cotizador y revisar los destinos de WhatsApp, sin enviar mensajes reales ni formularios al negocio.
 - **Pendiente:** corregir o aceptar el solapamiento del botón flotante de WhatsApp sobre el título de platos en móvil.
-- **Pendiente:** primer commit local. El repositorio se inicializó, pero Git no tiene `user.name` ni `user.email` configurados; se necesita la identidad deseada para este proyecto.
+- **Completado:** primer commit local `d71bbf2`, con identidad indicada por el propietario. El repositorio permanece local; no hay publicación ni remoto configurado.
 - **Confirmado no publicado:** no se detectó despliegue ni destino de publicación. No publicar sin autorización explícita.
 
 Al recibir datos o autorizaciones, actualizar [[empresa]], [[documentos-y-activos]], [[estado-del-proyecto]] y [[log]].
